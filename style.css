@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px;
+}
+.container {
+    max-width: 1100px;
+    margin-inline: auto;  
+}
+.banner .container,
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul {
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+header ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+.banner {
+    padding: 100px 0;
+    background-color: #1f2937;
+}
+.banner .container {
+    gap: 40px;
+}
+.banner .left {
+    flex: 1;
+}
+.banner .left .banner-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+.banner .left p {
+    color: #f9faf8;
+    margin: 0 0 10px;
+}
+.banner .left button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    padding: 7px 20px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+.banner .right {
+    flex: 1;
+}
+.some-random-information {
+    padding: 50px 0 100px;
+}
+.some-random-information .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937; 
+    text-align: center;
+    margin-top: 0;
+}
+.some-random-information .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+.some-random-information .row .column {
+    flex: 0 0 150px;
+}
+.some-random-information .row .column img {
+    border-radius: 6px;
+}
+.some-random-information .row .column p {
+    text-align: center;
+    margin: 5px 0 0;
+}
+.quotes {
+    padding: 100px 0;
+    background-color: #e5e7eb;
+}
+.quotes .inner {
+    max-width: 800px;
+    margin-inline: auto;
+}
+.quotes .para {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+
+}
+.quotes .name {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 50px;
+}
+.call-to-action {
+    padding: 100px 0;
+}
+.call-to-action .box {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.call-to-action .box h4 {
+    margin: 0;
+}
+.call-to-action .box p {
+    margin: 0;
+}
+.call-to-action .box .btn {
+    padding: 6px 20px;
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+footer {
+    background-color: #1f2937;
+    padding: 20px;
+    color: #ffffff;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+}
